@@ -205,6 +205,147 @@
                         
                     ],
                     "explanation": "https://aws.amazon.com/sql/"
+                },
+                {
+                    "id": 7,
+                    "no": 7,
+                    "question": "Which of the following inspects AWS environments to find opportunities that can save money for users and also improve system performance ?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "AWS Cost Explorer",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "AWS Trusted Advisor",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Consolidated billing",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Detailed billing",
+                            "isCorrect":false
+                        }
+                        
+                        
+                    ],
+                    "explanation": ""
+                },
+                {
+                    "id": 8,
+                    "no": 8,
+                    "question": "Which of the following Amazon EC2 pricing models allow customers to use existing server-bound software license ?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Spot Instances",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "Reserved Instances",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Dedicated Hosts",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "On-Demand Instances",
+                            "isCorrect":false
+                        }
+                        
+                        
+                    ],
+                    "explanation": "https://aws.amazon.com/ec2/pricing/"
+                },
+                {
+                    "id": 9,
+                    "no": 9,
+                    "question": "Which AWS characteristics make AWS cost effective for a workload with dynamic user demand? (Select TWO)",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "High availability",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "Shared security model",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Elasticity",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Pay-as-you-go pricing",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":5,
+                            "option": "E",
+                            "answer": "Reliability",
+                            "isCorrect":false
+                        }
+                        
+                        
+                    ],
+                    "explanation": ""
+                },
+                {
+                    "id": 10,
+                    "no": 10,
+                    "question": "Which service enables risk auditing by continuously monitoring and logging account activity, including user actions in the AWS Management Console and AWS SDKs?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Amazon CloudWatch",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "AWS CloudTrail",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "AWS Config",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "AWS Health",
+                            "isCorrect":false
+                        }
+                        
+                    ],
+                    "explanation": "https://aws.amazon.com/cloudtrail/"
                 }
             ]
         },
@@ -214,12 +355,242 @@
                 {
                     "id": 1,
                     "no": 1,
-                    "question": "The AWS Cloud’s multiple Regions are an example of",
+                    "question": "Which storage service can be used as a low-cost option for hosting static websites?",
                     "options": [
                         {
                             "id":1,
                             "option": "A",
-                            "answer": "agility",
+                            "answer": "Amazon Glacier",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "Amazon DynamoDB",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Amazon Elastic File System (Amazon EFS)",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Amazon Simple Storage Service (Amazon S3)",
+                            "isCorrect":true
+                        }
+                    ],
+                    "explanation": "https://aws.amazon.com/getting-started/projects/host-static-website/"
+                },
+                {
+                    "id": 2,
+                    "no": 2,
+                    "question": "Which Amazon EC2 instance pricing model can provide discounts of up to 90%?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Reserved Instances",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "On-Demand",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Dedicated Hosts",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Spot Instances",
+                            "isCorrect":true
+                        }
+                    ],
+                    "explanation": "https://aws.amazon.com/ec2/spot/"
+                },
+                {
+                    "id": 3,
+                    "no": 3,
+                    "question": "What is the AWS customer responsible for according to the AWS shared responsibility model?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Physical access controls",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "Data encryption",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Secure disposal of storage devices",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Environmental risk management",
+                            "isCorrect":false
+                        }
+                    ],
+                    "explanation": ""
+                },
+                {
+                    "id": 4,
+                    "no": 4,
+                    "question": "Which of the following AWS Cloud services can be used to run a customer-managed relational database?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Amazon EC2",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "Amazon Route 53",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Amazon ElastiCache",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Amazon DynamoDB",
+                            "isCorrect":false
+                        }
+                    ],
+                    "explanation": ""
+                },
+                {
+                    "id": 5,
+                    "no": 5,
+                    "question": "A company is looking for a scalable data warehouse solution. Which of the following AWS solutions would meet the company’s needs?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Amazon Simple Storage Service (Amazon S3)",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "Amazon DynamoDB",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Amazon Kinesis",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Amazon Redshift",
+                            "isCorrect":true
+                        }
+                    ],
+                    "explanation": "https://aws.amazon.com/redshift/"
+                },
+                {
+                    "id": 6,
+                    "no": 6,
+                    "question": "Which statement best describes Elastic Load Balancing?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "It translates a domain name into an IP address using DNS.",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "It distributes incoming application traffic across one or more Amazon EC2 instances.",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "It collects metrics on connected Amazon EC2 instances.",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "It automatically adjusts the number of Amazon EC2 instances to support incoming traffic.",
+                            "isCorrect":false
+                        }
+                    ],
+                    "explanation": "https://aws.amazon.com/elasticloadbalancing/"
+                },
+                {
+                    "id": 7,
+                    "no": 7,
+                    "question": "Which of the following are valid ways for a customer to interact with AWS services? (Select TWO.)",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Command line interface",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "On-premises",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Software Development Kits",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Software-as-a-service",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":5,
+                            "option": "E",
+                            "answer": "Hybrid",
+                            "isCorrect":false
+                        }
+                    ],
+                    "explanation": ""
+                },
+                {
+                    "id": 8,
+                    "no": 8,
+                    "question": "The AWS Cloud’s multiple Regions are an example of:",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "agility.",
                             "isCorrect":false
                         },
                         {
@@ -237,15 +608,15 @@
                         {
                             "id":4,
                             "option": "D",
-                            "answer": "pay-as-you-go pricing",
+                            "answer": "pay-as-you-go pricing.",
                             "isCorrect":false
                         }
                     ],
                     "explanation": ""
                 },
                 {
-                    "id": 2,
-                    "no": 2,
+                    "id": 9,
+                    "no": 9,
                     "question": "Which of the following AWS services can be used to serve large amounts of online video content with the lowest possible latency? (Select TWO.)",
                     "options": [
                         {
@@ -274,12 +645,387 @@
                         },
                         {
                             "id":5,
-                            "option":"E",
-                            "answer":"Amazon CloudFront",
+                            "option": "E",
+                            "answer": "Amazon CloudFront",
                             "isCorrect":true
                         }
                     ],
                     "explanation": "https://aws.amazon.com/getting-started/tutorials/deliver-content-faster/"
+                },
+                {
+                    "id": 10,
+                    "no": 10,
+                    "question": "Web servers running on Amazon EC2 access a legacy application running in a corporate data center. What term would describe this model?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Cloud-native",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "Partner network",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Hybrid architecture",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Infrastructure as a service",
+                            "isCorrect":false
+                        }
+                    ],
+                    "explanation": "https://aws.amazon.com/enterprise/hybrid/"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "exam_details": [
+                {
+                    "id": 1,
+                    "no": 1,
+                    "question": "How do customers benefit from Amazon’s massive economies of scale?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Periodic price reductions as the result of Amazon’s operational efficiencies",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "New Amazon EC2 instance types providing the latest hardware",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "The ability to scale up and down when needed",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Increased reliability in the underlying hardware of Amazon EC2 instances",
+                            "isCorrect":false
+                        }
+                    ],
+                    "explanation": ""
+                },
+                {
+                    "id": 2,
+                    "no": 2,
+                    "question": "Which AWS services can be used to gather information about AWS account activity? (Select TWO.)",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Amazon CloudFront",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "AWS Cloud9",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "AWS CloudTrail",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "AWS CloudHSM",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":5,
+                            "option": "E",
+                            "answer": "Amazon CloudWatch",
+                            "isCorrect":true
+                        }
+                    ],
+                    "explanation": "https://aws.amazon.com/solutions/real-time-insights-account-activity/"
+                },
+                {
+                    "id": 3,
+                    "no": 3,
+                    "question": "What is the AWS customer responsible for according to the AWS shared responsibility model?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Physical access controls",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "Data encryption",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Secure disposal of storage devices",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Environmental risk management",
+                            "isCorrect":false
+                        }
+                    ],
+                    "explanation": ""
+                },
+                {
+                    "id": 4,
+                    "no": 4,
+                    "question": "Which of the following AWS Cloud services can be used to run a customer-managed relational database?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Amazon EC2",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "Amazon Route 53",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Amazon ElastiCache",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Amazon DynamoDB",
+                            "isCorrect":false
+                        }
+                    ],
+                    "explanation": ""
+                },
+                {
+                    "id": 5,
+                    "no": 5,
+                    "question": "A company is looking for a scalable data warehouse solution. Which of the following AWS solutions would meet the company’s needs?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Amazon Simple Storage Service (Amazon S3)",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "Amazon DynamoDB",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Amazon Kinesis",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Amazon Redshift",
+                            "isCorrect":true
+                        }
+                    ],
+                    "explanation": "https://aws.amazon.com/redshift/"
+                },
+                {
+                    "id": 6,
+                    "no": 6,
+                    "question": "Which statement best describes Elastic Load Balancing?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "It translates a domain name into an IP address using DNS.",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "It distributes incoming application traffic across one or more Amazon EC2 instances.",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "It collects metrics on connected Amazon EC2 instances.",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "It automatically adjusts the number of Amazon EC2 instances to support incoming traffic.",
+                            "isCorrect":false
+                        }
+                    ],
+                    "explanation": "https://aws.amazon.com/elasticloadbalancing/"
+                },
+                {
+                    "id": 7,
+                    "no": 7,
+                    "question": "Which of the following are valid ways for a customer to interact with AWS services? (Select TWO.)",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Command line interface",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "On-premises",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Software Development Kits",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Software-as-a-service",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":5,
+                            "option": "E",
+                            "answer": "Hybrid",
+                            "isCorrect":false
+                        }
+                    ],
+                    "explanation": ""
+                },
+                {
+                    "id": 8,
+                    "no": 8,
+                    "question": "The AWS Cloud’s multiple Regions are an example of:",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "agility.",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "global infrastructure.",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "elasticity.",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "pay-as-you-go pricing.",
+                            "isCorrect":false
+                        }
+                    ],
+                    "explanation": ""
+                },
+                {
+                    "id": 9,
+                    "no": 9,
+                    "question": "Which of the following AWS services can be used to serve large amounts of online video content with the lowest possible latency? (Select TWO.)",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "AWS Storage Gateway",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "Amazon S3",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Amazon Elastic File System (EFS)",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Amazon Glacier",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":5,
+                            "option": "E",
+                            "answer": "Amazon CloudFront",
+                            "isCorrect":true
+                        }
+                    ],
+                    "explanation": "https://aws.amazon.com/getting-started/tutorials/deliver-content-faster/"
+                },
+                {
+                    "id": 10,
+                    "no": 10,
+                    "question": "Web servers running on Amazon EC2 access a legacy application running in a corporate data center. What term would describe this model?",
+                    "options": [
+                        {
+                            "id":1,
+                            "option": "A",
+                            "answer": "Cloud-native",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":2,
+                            "option": "B",
+                            "answer": "Partner network",
+                            "isCorrect":false
+                        },
+                        {
+                            "id":3,
+                            "option": "C",
+                            "answer": "Hybrid architecture",
+                            "isCorrect":true
+                        },
+                        {
+                            "id":4,
+                            "option": "D",
+                            "answer": "Infrastructure as a service",
+                            "isCorrect":false
+                        }
+                    ],
+                    "explanation": "https://aws.amazon.com/enterprise/hybrid/"
                 }
             ]
         }
